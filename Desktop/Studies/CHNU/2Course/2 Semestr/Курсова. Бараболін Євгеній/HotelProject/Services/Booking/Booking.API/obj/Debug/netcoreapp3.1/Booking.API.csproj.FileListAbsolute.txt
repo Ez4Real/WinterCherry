@@ -1,0 +1,40 @@
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.exe
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.deps.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.runtimeconfig.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.runtimeconfig.dev.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.dll
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.pdb
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.csprojAssemblyReference.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.AssemblyInfoInputs.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.AssemblyInfo.cs
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.csproj.CoreCompileInputs.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\staticwebassets\Booking.API.StaticWebAssets.Manifest.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\staticwebassets\Booking.API.StaticWebAssets.xml
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Booking.API.styles.css
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.RazorTargetAssemblyInfo.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.dll
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.pdb
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.genruntimeconfig.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.exe
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.deps.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.runtimeconfig.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.runtimeconfig.dev.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.dll
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\bin\Debug\netcoreapp3.1\Booking.API.pdb
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.csprojAssemblyReference.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.AssemblyInfoInputs.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.AssemblyInfo.cs
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.csproj.CoreCompileInputs.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\staticwebassets\Booking.API.StaticWebAssets.Manifest.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\staticwebassets\Booking.API.StaticWebAssets.xml
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Booking.API.styles.css
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.RazorTargetAssemblyInfo.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.dll
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.pdb
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Booking\Booking.API\obj\Debug\netcoreapp3.1\Booking.API.genruntimeconfig.cache

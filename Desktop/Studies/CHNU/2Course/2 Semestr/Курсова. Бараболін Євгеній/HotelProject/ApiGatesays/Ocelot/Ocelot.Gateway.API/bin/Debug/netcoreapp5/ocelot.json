@@ -1,0 +1,201 @@
+{
+  "Routes": [
+    //Catalog API---------------------------------
+
+
+    //RoomImages
+    {
+      "DownstreamPathTemplate": "/RoomImages",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5050"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog/RoomImages",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    //RoomImages/{id}
+    {
+      "DownstreamPathTemplate": "/RoomImages/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5050"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog/RoomImages/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+
+
+
+    //Rooms
+    {
+      "DownstreamPathTemplate": "/Rooms",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5050"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog/Rooms",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    //Rooms{id}
+    {
+      "DownstreamPathTemplate": "/Rooms/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5050"
+        }
+      ],
+      "UpstreamPathTemplate": "/Catalog/Rooms/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+
+
+
+    //Comments API---------------------------------
+
+
+    //Comments
+    {
+      "DownstreamPathTemplate": "/Comments",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5080"
+        }
+      ],
+      "UpstreamPathTemplate": "/Comments",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+
+    //Comments/{id}
+    {
+      "DownstreamPathTemplate": "/Comments/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5080"
+        }
+      ],
+      "UpstreamPathTemplate": "/Comments/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+
+
+
+
+    //Booking API---------------------------------
+
+
+    //CheckIn
+    {
+      "DownstreamPathTemplate": "/CheckIn",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5040"
+        }
+      ],
+      "UpstreamPathTemplate": "/CheckIn",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+
+    //CheckIn/{id}
+    {
+      "DownstreamPathTemplate": "/CheckIn/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5040"
+        }
+      ],
+      "UpstreamPathTemplate": "/CheckIn/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+
+
+
+    //Payment API---------------------------------
+
+
+    //Clients
+    {
+      "DownstreamPathTemplate": "/Clients",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5090"
+        }
+      ],
+      "UpstreamPathTemplate": "/Clients/Payment",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+    //Clients/{id}
+    {
+      "DownstreamPathTemplate": "/Clients/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5090"
+        }
+      ],
+      "UpstreamPathTemplate": "/Clients/Payment/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+
+    //Clients API---------------------------------
+
+
+    //Clients
+    {
+      "DownstreamPathTemplate": "/Clients",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5070"
+        }
+      ],
+      "UpstreamPathTemplate": "/Profile",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+
+    //Clients/{id}
+    {
+      "DownstreamPathTemplate": "/Clients/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5070"
+        }
+      ],
+      "UpstreamPathTemplate": "/Profile/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5011"
+  }
+}
