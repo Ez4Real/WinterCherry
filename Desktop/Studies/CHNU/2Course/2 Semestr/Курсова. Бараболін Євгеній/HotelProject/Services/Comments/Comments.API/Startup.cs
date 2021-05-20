@@ -2,6 +2,7 @@ using Comments.API.EfDBContext;
 using Comments.API.Interfaces;
 using Comments.API.Interfaces.IRepositories;
 using Comments.API.Interfaces.IServices;
+using Comments.API.Mapper;
 using Comments.API.Repositories;
 using Comments.API.Services;
 using Comments.API.UnitOfWorks;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace Comments.API
 {
@@ -35,7 +37,16 @@ namespace Comments.API
             #region SQL services
             services.AddTransient<ICommentsService, CommentsService>();
             #endregion
+            #region Automapper
+            services.AddAutoMapper(typeof(MappingProfile));
+            #endregion
 
+            #region Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Comments.API", Version = "v1" });
+            });
+            #endregion
         }
 
 
@@ -45,6 +56,8 @@ namespace Comments.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comments.API v1"));
             }
 
             app.UseHttpsRedirection();

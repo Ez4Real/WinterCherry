@@ -17,7 +17,7 @@ namespace Booking.API.Services
             _checkInRepository = checkInRepository;
         }
 
-        public async Task<IEnumerable<Entities.CheckIn>> GetAllCheckInsAsync()
+        public async Task<IEnumerable<Entities.CheckIn>> GetAllCheckInAsync()
         {
             return await _checkInRepository.GetAllAsync();
         }

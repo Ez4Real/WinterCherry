@@ -1,3 +1,4 @@
+using Catalog.API.Mapper;
 using Catalog.BLL.Interfaces;
 using Catalog.BLL.Interfaces.IServices;
 using Catalog.BLL.Services;
@@ -11,6 +12,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+
 namespace Catalog.API
 {
     public class Startup
@@ -37,6 +40,15 @@ namespace Catalog.API
             services.AddTransient<IRoomImagesService, RoomImagesService>();
             services.AddTransient<IRoomsService, RoomsService>();
             #endregion
+            #region Automapper
+            services.AddAutoMapper(typeof(MappingProfile));
+            #endregion
+            #region Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog.API", Version = "v1" });
+            });
+            #endregion
 
         }
 
@@ -47,6 +59,8 @@ namespace Catalog.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Catalog.API v1"));
             }
 
             app.UseHttpsRedirection();

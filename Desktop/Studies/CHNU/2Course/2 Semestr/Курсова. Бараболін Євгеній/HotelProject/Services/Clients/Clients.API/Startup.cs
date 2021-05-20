@@ -2,21 +2,16 @@ using Clients.API.EfDBContext;
 using Clients.API.Interfaces.Interfaces;
 using Clients.API.Interfaces.IRepositories;
 using Clients.API.Interfaces.IServices;
+using Clients.API.Mapper;
 using Clients.API.Repositories;
 using Clients.API.Services;
 using Clients.API.UnitOfWorks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.OpenApi.Models;
 
 namespace Clients.API
 {
@@ -42,6 +37,15 @@ namespace Clients.API
             #region SQL services
             services.AddTransient<IClientsService, ClientsService>();
             #endregion
+            #region Automapper
+            services.AddAutoMapper(typeof(MappingProfile));
+            #endregion
+            #region Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Payment.API", Version = "v1" });
+            });
+            #endregion
 
         }
 
@@ -52,6 +56,8 @@ namespace Clients.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Booking.API v1"));
             }
 
             app.UseHttpsRedirection();

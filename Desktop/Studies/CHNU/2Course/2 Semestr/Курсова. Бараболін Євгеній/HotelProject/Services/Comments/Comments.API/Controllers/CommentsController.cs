@@ -1,56 +1,67 @@
-﻿using Comments.API.Entities;
+﻿using AutoMapper;
+using Comments.API.DTO;
 using Comments.API.Interfaces.IServices;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Comments.API.Controllers
 {
-    public class CommentsController : ControllerBase
+    [Route("[controller]")]
+    [ApiController]
+    public class CommentsController
     {
-        private ICommentsService _commentsService { get; }
-        public CommentsController(ICommentsService commentsService)
+        private readonly ICommentsService _commentsService;
+        private readonly IMapper _mapper;
+        public CommentsController(
+            ICommentsService commentsService,
+            IMapper mapper)
         {
             _commentsService = commentsService;
+            _mapper = mapper;
         }
 
-        [Route("/Comments")]
+
+        #region CommentsAPIs
+        // GET: /Comments Get all Comments
         [HttpGet]
-        public async Task<IEnumerable<Entities.Comments>> GetAllComments()
+        public async Task<IEnumerable<CommentsDTO>> GetAllCommentsAsync()
         {
-            return await _commentsService.GetAllCommentsAysnc();
+            var comments = await _commentsService.GetAllCommentsAysnc();
+            var commentsDTO = _mapper.Map<IEnumerable<CommentsDTO>>(comments);
+            return commentsDTO;
+
         }
 
-        [Route("/Comments/{id}")]
-        [HttpGet]
-        public async Task<Entities.Comments> GetCommentsByIdAsync(int id)
+        // GET: /Comments/{Id} Get Comments by id
+        [HttpGet("{Id}")]
+        public async Task<Entities.Comments> GetCommentsByIdAsync(int Id)
         {
-            return await _commentsService.GetCommentsByIdAysnc(id);
+            return await _commentsService.GetCommentsByIdAysnc(Id);
         }
 
-        [Route("/Comments")]
+        // POST: /Comments Add new Comments
         [HttpPost]
         public async Task<Entities.Comments> AddCommentsAsync([FromBody] Entities.Comments comments)
         {
             return await _commentsService.AddCommentsAysnc(comments);
         }
 
-        [Route("/Comments")]
+        // PUT: /Comments Update existing Comments
         [HttpPut]
         public async Task<Entities.Comments> UpdateCommentsAsync([FromBody] Entities.Comments comments)
         {
             return await _commentsService.UpdateCommentsAysnc(comments);
         }
 
-        [Route("/Comments/{id}")]
-        [HttpDelete]
+        // DELETE: /Comments/{Id} Delete existing Comments
+        [HttpDelete("{id}")]
         public async Task<Entities.Comments> DeleteCommentsAsync(int id)
         {
             return await _commentsService.DeleteCommentsAysnc(id);
         }
-
+        #endregion
     }
 }
+
 

@@ -3,6 +3,7 @@ using Booking.API.Interfaces;
 using Booking.API.Interfaces.IConnectionFactory;
 using Booking.API.Interfaces.IRepositories;
 using Booking.API.Interfaces.IServices;
+using Booking.API.Mapper;
 using Booking.API.Repositories;
 using Booking.API.Services;
 using Booking.API.UnitOfWorks;
@@ -42,14 +43,18 @@ namespace Booking.API
             #region Connection
             services.AddTransient<IBookingConnectionFactory, BookingConnectionFactory>();
             #endregion
-  
+
+            #region Automapper
+            services.AddAutoMapper(typeof(MappingProfile));
+            #endregion
 
             #region Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CheckIn.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Booking.API", Version = "v1" });
             });
             #endregion
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +64,7 @@ namespace Booking.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CheckIn.API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Booking.API v1"));
             }
 
             app.UseHttpsRedirection();

@@ -1,4 +1,6 @@
-﻿using Catalog.BLL.Interfaces.IServices;
+﻿using AutoMapper;
+using Catalog.API.DTO;
+using Catalog.BLL.Interfaces.IServices;
 using Catalog.DAL.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,47 +10,59 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Controllers
 {
-    public class RoomsController : ControllerBase
+    [Route("[controller]")]
+    [ApiController]
+    public class RoomsController
     {
-        private IRoomsService _roomsService { get; }
-        public RoomsController(IRoomsService roomsService)
+        private readonly IRoomsService _roomsService;
+        private readonly IMapper _mapper;
+        public RoomsController(
+            IRoomsService roomsService,
+            IMapper mapper)
         {
             _roomsService = roomsService;
+            _mapper = mapper;
         }
 
-        [Route("/Rooms")]
+
+        #region RoomsAPIs
+        // GET: /Rooms Get all Rooms
         [HttpGet]
-        public async Task<IEnumerable<Rooms>> GetAllRooms()
+        public async Task<IEnumerable<RoomsDTO>> GetAllRoomsAsync()
         {
-            return await _roomsService.GetAllRoomsAysnc();
+            var rooms = await _roomsService.GetAllRoomsAysnc();
+            var roomsDTO = _mapper.Map<IEnumerable<RoomsDTO>>(rooms);
+            return roomsDTO;
+
         }
 
-        [Route("/Rooms/{id}")]
-        [HttpGet]
-        public async Task<Rooms> GetRoomsByIdAsync(int id)
+        // GET: /Rooms/{Id} Get Rooms by id
+        [HttpGet("{Id}")]
+        public async Task<Rooms> GetRoomsByIdAsync(int Id)
         {
-            return await _roomsService.GetRoomsByIdAysnc(id);
+            return await _roomsService.GetRoomsByIdAysnc(Id);
         }
 
-        [Route("/Rooms")]
+        // POST: /Rooms Add new Rooms
         [HttpPost]
         public async Task<Rooms> AddRoomsAsync([FromBody] Rooms rooms)
         {
             return await _roomsService.AddRoomsAysnc(rooms);
         }
 
-        [Route("/Rooms")]
+        // PUT: /Rooms Update existing Rooms
         [HttpPut]
         public async Task<Rooms> UpdateRoomsAsync([FromBody] Rooms rooms)
         {
             return await _roomsService.UpdateRoomsAysnc(rooms);
         }
 
-        [Route("/Rooms/{id}")]
-        [HttpDelete]
+        // DELETE: /Rooms/{Id} Delete existing Rooms
+        [HttpDelete("{id}")]
         public async Task<Rooms> DeleteRoomsAsync(int id)
         {
             return await _roomsService.DeleteRoomsAysnc(id);
         }
+        #endregion
     }
 }

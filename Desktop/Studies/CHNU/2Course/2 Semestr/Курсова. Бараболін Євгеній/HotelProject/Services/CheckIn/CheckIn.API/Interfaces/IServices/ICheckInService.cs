@@ -7,7 +7,7 @@ namespace Booking.API.Interfaces.IServices
 {
     public interface ICheckInService
     {
-        public Task<IEnumerable<Entities.CheckIn>> GetAllCheckInsAsync();
+        public Task<IEnumerable<Entities.CheckIn>> GetAllCheckInAsync();
         public Task<Entities.CheckIn> GetCheckInByIdAsync(int Id);
         public Task<bool> AddCheckInAsync(Entities.CheckIn checkin);
         public Task<bool> UpdateCheckInAsync(Entities.CheckIn checkin);

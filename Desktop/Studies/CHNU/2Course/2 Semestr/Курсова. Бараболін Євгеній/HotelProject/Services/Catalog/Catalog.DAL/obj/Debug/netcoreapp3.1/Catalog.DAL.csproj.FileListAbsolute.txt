@@ -10,3 +10,15 @@ C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Барабо
 C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.dll
 C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.pdb
 C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.genruntimeconfig.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\bin\Debug\netcoreapp3.1\Catalog.DAL.deps.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\bin\Debug\netcoreapp3.1\Catalog.DAL.runtimeconfig.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\bin\Debug\netcoreapp3.1\Catalog.DAL.runtimeconfig.dev.json
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\bin\Debug\netcoreapp3.1\Catalog.DAL.dll
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\bin\Debug\netcoreapp3.1\Catalog.DAL.pdb
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.csprojAssemblyReference.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.AssemblyInfoInputs.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.AssemblyInfo.cs
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.csproj.CoreCompileInputs.cache
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.dll
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.pdb
+C:\Users\PKL\Desktop\Studies\CHNU\2Course\2 Semestr\Курсова. Бараболін Євгеній\HotelProject\Services\Catalog\Catalog.DAL\obj\Debug\netcoreapp3.1\Catalog.DAL.genruntimeconfig.cache

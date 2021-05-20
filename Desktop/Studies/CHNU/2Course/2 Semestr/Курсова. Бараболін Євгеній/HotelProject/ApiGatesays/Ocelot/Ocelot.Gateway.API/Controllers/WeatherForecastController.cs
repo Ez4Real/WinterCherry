@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Ocelot.API.Getaway.Controllers
 {
@@ -23,10 +19,11 @@ namespace Ocelot.API.Getaway.Controllers
             string[] list =
             {
                 "Hello from Ocelot API",
-                "Catalog - https://localhost:8001/swagger",
-                "Cart - https://localhost:8003/swagger",
-                "Orders - https://localhost:8005/swagger",
-                "Customer - https://localhost:8007/swagger",
+                "Catalog - https://localhost:5050/swagger",
+                "Booking - https://localhost:5040/swagger",
+                "Clients - https://localhost:5070/swagger",
+                "Comments - https://localhost:5080/swagger",
+                "Payment - https://localhost:5090/swagger",
             };
             return list;
         }

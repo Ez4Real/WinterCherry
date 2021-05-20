@@ -1,4 +1,6 @@
-﻿using Catalog.BLL.Interfaces.IServices;
+﻿using AutoMapper;
+using Catalog.API.DTO;
+using Catalog.BLL.Interfaces.IServices;
 using Catalog.DAL.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,47 +10,59 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Controllers
 {
-    public class RoomImagesController : ControllerBase
+    [Route("[controller]")]
+    [ApiController]
+    public class RoomImagesController
     {
-        private IRoomImagesService _roomsService { get; }
-        public RoomImagesController(IRoomImagesService roomsService)
+        private readonly IRoomImagesService _RoomImagesService;
+        private readonly IMapper _mapper;
+        public RoomImagesController(
+            IRoomImagesService RoomImagesService,
+            IMapper mapper)
         {
-            _roomsService = roomsService;
+            _RoomImagesService = RoomImagesService;
+            _mapper = mapper;
         }
 
-        [Route("/RoomImages")]
+
+        #region RoomImagesAPIs
+        // GET: /RoomImages Get all RoomImages
         [HttpGet]
-        public async Task<IEnumerable<RoomImages>> GetAllRoomImages()
+        public async Task<IEnumerable<RoomImagesDTO>> GetAllRoomImagesAsync()
         {
-            return await _roomsService.GetAllRoomImagesAysnc();
+            var RoomImages = await _RoomImagesService.GetAllRoomImagesAysnc();
+            var RoomImagesDTO = _mapper.Map<IEnumerable<RoomImagesDTO>>(RoomImages);
+            return RoomImagesDTO;
+
         }
 
-        [Route("/RoomImages/{id}")]
-        [HttpGet]
-        public async Task<RoomImages> GetRoomImagesByIdAsync(int id)
+        // GET: /RoomImages/{Id} Get RoomImages by id
+        [HttpGet("{Id}")]
+        public async Task<RoomImages> GetRoomImagesByIdAsync(int Id)
         {
-            return await _roomsService.GetRoomImagesByIdAysnc(id);
+            return await _RoomImagesService.GetRoomImagesByIdAysnc(Id);
         }
 
-        [Route("/RoomImages")]
+        // POST: /RoomImages Add new RoomImages
         [HttpPost]
-        public async Task<RoomImages> AddRoomImagesAsync([FromBody] RoomImages rooms)
+        public async Task<RoomImages> AddRoomImagesAsync([FromBody] RoomImages roomImages)
         {
-            return await _roomsService.AddRoomImagesAysnc(rooms);
+            return await _RoomImagesService.AddRoomImagesAysnc(roomImages);
         }
 
-        [Route("/RoomImages")]
+        // PUT: /RoomImages Update existing RoomImages
         [HttpPut]
-        public async Task<RoomImages> UpdateRoomImagesAsync([FromBody] RoomImages rooms)
+        public async Task<RoomImages> UpdateRoomImagesAsync([FromBody] RoomImages roomImages)
         {
-            return await _roomsService.UpdateRoomImagesAysnc(rooms);
+            return await _RoomImagesService.UpdateRoomImagesAysnc(roomImages);
         }
 
-        [Route("/RoomImages/{id}")]
-        [HttpDelete]
+        // DELETE: /RoomImages/{Id} Delete existing RoomImages
+        [HttpDelete("{id}")]
         public async Task<RoomImages> DeleteRoomImagesAsync(int id)
         {
-            return await _roomsService.DeleteRoomImagesAysnc(id);
+            return await _RoomImagesService.DeleteRoomImagesAysnc(id);
         }
+        #endregion
     }
 }
