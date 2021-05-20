@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj": {}
+    "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj": {
+    "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj",
+        "projectUniqueName": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj",
         "projectName": "Booking.API",
-        "projectPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj",
+        "projectPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj",
         "packagesPath": "C:\\Users\\PKL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\CheckIn\\CheckIn.API\\obj\\",
+        "outputPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\CheckIn\\CheckIn.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PKL\\AppData\\Roaming\\NuGet\\NuGet.Config",

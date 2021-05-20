@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rSDDRCLOxIlZnxNJ1l7zO5IQ5CMIbCMFpewTU7XdXivOO/jUGpnFB8rkoGdrehSvQ3KhcSMsR1mJ6OSrsCSTbw==",
+  "dgSpecHash": "MjVE5wQ99fCo1qWTKRRJEbF144z3hv4cyS7M6i8teizKydqG2NyN/SJR3CPzANEQDFaaMP5y3QjMhQkBV12eOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Payment\\Payment.API\\Payment.API.csproj",
+  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Payment\\Payment.API\\Payment.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PKL\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

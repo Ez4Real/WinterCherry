@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NSbi+s/TiLlvRzaUkLjGL0nfhRJfBkzRwDT2FdVqEFAQ+6QxW1jq1mlcKtsNh7Mu2cQQwUkcKmSCnJ/EYn9gFA==",
+  "dgSpecHash": "VNVNJX2UWoZuh56pyjPCfttSxRRVypcpbdmggJLwN+PlIMuHaXxRLthGE2TZBLs5DwO6DFZ64kyLKNqy89G9yA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Clients\\Clients.API\\Clients.API.csproj",
+  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Clients\\Clients.API\\Clients.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PKL\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

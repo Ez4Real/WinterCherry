@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QnsWvUYwYFPxpOnAecORXkhooGh0h4E7ifRHnPq1OQpiUYHpR15NxcYRpVkAEzQ3tIzGneg16OdF6YwRcExEXg==",
+  "dgSpecHash": "n0l22mc/iXYimKmSMO3YY9+LEuLOucN10/8IoDabZkfP05+zVjWGbClkExBe9IdO8FUEtYrbD6G4Uq8YKQrcpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PKL\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

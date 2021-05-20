@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
       "projectName": "Payment.Domain",
-      "projectPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
+      "projectPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
       "packagesPath": "C:\\Users\\PKL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Payment\\Payment.Domain\\obj\\",
+      "outputPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Payment\\Payment.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PKL\\AppData\\Roaming\\NuGet\\NuGet.Config",

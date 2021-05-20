@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NqZaZ6cXscMumehFi7D6cneDgvdLOHQG6tbsAUz3RSQVHUmUzaSE+CCA6pAkoobsMY4/6alDoi1O4tW9vIpjBQ==",
+  "dgSpecHash": "cg9vKY9Ldnt3pVnds4D1OoLQ4ojpsPR184KGkISxQPXbgDSUJrsNAyuyo3WcLaBfbW7RLPY4JGehYi1hH1WFww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
+  "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

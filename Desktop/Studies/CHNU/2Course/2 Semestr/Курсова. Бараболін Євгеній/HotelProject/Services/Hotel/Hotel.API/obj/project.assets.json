@@ -6040,11 +6040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Hotel\\Hotel.API\\Hotel.API.csproj",
+      "projectUniqueName": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Hotel\\Hotel.API\\Hotel.API.csproj",
       "projectName": "Hotel.API",
-      "projectPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Hotel\\Hotel.API\\Hotel.API.csproj",
+      "projectPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Hotel\\Hotel.API\\Hotel.API.csproj",
       "packagesPath": "C:\\Users\\PKL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\Services\\Hotel\\Hotel.API\\obj\\",
+      "outputPath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Hotel\\Hotel.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PKL\\AppData\\Roaming\\NuGet\\NuGet.Config",
