@@ -193,9 +193,44 @@
       ],
       "UpstreamPathTemplate": "/Profile/{id}",
       "UpstreamHttpMethod": [ "GET", "DELETE" ]
+    },
+
+    //Response API---------------------------------
+
+
+    //Response
+    {
+      "DownstreamPathTemplate": "/Response",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5030"
+        }
+      ],
+      "UpstreamPathTemplate": "/Response",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "FileCacheOptions": { "TtlSeconds": 30 }
+    },
+
+    //Response/{id}
+    {
+      "DownstreamPathTemplate": "/Response/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5030"
+        }
+      ],
+      "UpstreamPathTemplate": "/Response/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ]
     }
+
   ],
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:5011"
   }
 }
+
+

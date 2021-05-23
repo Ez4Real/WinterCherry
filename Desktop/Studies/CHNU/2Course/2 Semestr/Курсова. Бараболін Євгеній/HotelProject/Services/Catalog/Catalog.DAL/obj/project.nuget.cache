@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Pm3HKVuc9w+MXJOdbfyZ3z2xWEmAoq6vhaiiJxFk0y6BrSTjqkAVOHMsFUTTRKT793Y8bT4F10VDAYgrSs9dbg==",
+  "dgSpecHash": "8f7j+bDQjfIxxJVc5Qu0+JK2toHGbJ8EBHz7VJCqPvZVrZmNBQZ3//Jw8A5gHqwXduANmTYkuJlH6FFEaf1vew==",
   "success": true,
   "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Catalog\\Catalog.DAL\\Catalog.DAL.csproj",
   "expectedPackageFiles": [
@@ -108,7 +108,8 @@
     "C:\\Users\\PKL\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\PKL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

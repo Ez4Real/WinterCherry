@@ -24,6 +24,7 @@ namespace Ocelot.API.Getaway.Controllers
                 "Clients - https://localhost:5070/swagger",
                 "Comments - https://localhost:5080/swagger",
                 "Payment - https://localhost:5090/swagger",
+                "Response - https://localhost:5030/swagger",
             };
             return list;
         }

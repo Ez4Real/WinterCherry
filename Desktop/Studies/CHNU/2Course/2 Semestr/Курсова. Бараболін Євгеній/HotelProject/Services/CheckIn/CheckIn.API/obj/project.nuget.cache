@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rOujBuirrbzeBznxwgjfp7IDU0yEnCfugBiMwTpCrpPRBNMibynFFvEMlNEGARFFE06YbKcXh9uhbV0eYClmyw==",
+  "dgSpecHash": "4Na4lwa3t3FVIlZSwIb6ZpKInvK3m54Btp5Bvzp3FqEgML/L93+VeMG8xsjBkHMr+EPStcQtlC3bQSCejH5qMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\CheckIn\\CheckIn.API\\Booking.API.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,9 @@
     "C:\\Users\\PKL\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\PKL\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+    "C:\\Users\\PKL\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\PKL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\PKL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
   ],
   "logs": []
 }

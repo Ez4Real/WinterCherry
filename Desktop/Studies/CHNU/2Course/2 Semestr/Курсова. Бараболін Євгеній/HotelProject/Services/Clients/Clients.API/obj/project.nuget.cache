@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wjQYNd751PYBA37f+9uzntg/+HNWV4gAsGcIV6OKG0BHcCkBkCgwP5JOo0usUbXL4lGOksZz6IQC+m53Gwwy6A==",
+  "dgSpecHash": "b1NRW5T+sbk+3nrGPlWx/fNeqnCX6Tj7a3MGCGYJhuQ/hpSxQOEbulQ+EbF20HHGbYEaeJzI7ZE4fcjl+9TFhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Clients\\Clients.API\\Clients.API.csproj",
   "expectedPackageFiles": [
@@ -113,7 +113,9 @@
     "C:\\Users\\PKL\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\PKL\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\PKL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\PKL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
   ],
   "logs": []
 }

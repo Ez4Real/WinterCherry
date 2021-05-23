@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cg9vKY9Ldnt3pVnds4D1OoLQ4ojpsPR184KGkISxQPXbgDSUJrsNAyuyo3WcLaBfbW7RLPY4JGehYi1hH1WFww==",
+  "dgSpecHash": "myHjH/JXD7/3oc/POiSBC9KY+BEBWdDZ8XLjBr9yI0eVRHd3nfJIPYURfxo5/rGpi7vIxoSJ9nRS9GyCGSIbjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PKL\\Desktop\\Studies\\CHNU\\2Course\\2 Semestr\\Курсова. Бараболін Євгеній\\HotelProject\\Services\\Payment\\Payment.Domain\\Payment.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PKL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
