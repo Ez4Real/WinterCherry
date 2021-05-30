@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "roomId": 1,
+        "imgPath": "https://images.unsplash.com/photo-1518733057094-95b53143d2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=315&q=80"
+    },
+    {
+        "id": 2,
+        "roomId": 1,
+        "imgPath": "https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=330&q=80"
+    }
+]

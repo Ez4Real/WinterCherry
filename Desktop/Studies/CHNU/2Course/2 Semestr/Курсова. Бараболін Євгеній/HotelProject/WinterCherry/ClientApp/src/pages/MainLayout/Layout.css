@@ -1,0 +1,48 @@
+.layout {
+  min-height: 100vh;
+}
+
+.footer {
+  text-align: center;
+}
+
+.logo {
+  height: 10px;
+  margin: 0px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  height: 80px;
+  background: #fff;
+}
+
+.site-layout-main {
+  margin-top: 30px;
+  background: #fff;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+.header {
+  background: #fff;
+  padding: 0;
+  height: 90px;
+}
+
+.user-avatar {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.user-avatar > span {
+  margin-right: 20px;
+}
+
+.content-layout {
+  margin: 0 16px;
+}

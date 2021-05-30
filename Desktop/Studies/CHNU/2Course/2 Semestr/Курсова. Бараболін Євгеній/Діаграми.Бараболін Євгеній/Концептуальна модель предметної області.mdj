@@ -1,0 +1,407 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAF5m8IG8NK7UXM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model1"
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF5m8i5vtN0Av4=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF5m8i5vtN1/DI=",
+					"_parent": {
+						"$ref": "AAAAAAF5m8i5vtN0Av4="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCAlternateProcessView",
+							"_id": "AAAAAAF5m8m/jtPLRsQ=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8m/jtPJKNE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5m8m/jtPMOks=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8m/jtPLRsQ="
+									},
+									"font": "Arial;22;0",
+									"left": 42,
+									"top": 490,
+									"width": 149,
+									"height": 22,
+									"text": "Client",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;22;0",
+							"left": 32,
+							"top": 480,
+							"width": 169,
+							"height": 50,
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8m/jtPMOks="
+							}
+						},
+						{
+							"_type": "FCAlternateProcessView",
+							"_id": "AAAAAAF5m8o3EtPa9aE=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5m8o3EtPbPZY=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8o3EtPa9aE="
+									},
+									"font": "Arial;15;0",
+									"left": 330,
+									"top": 490,
+									"width": 149,
+									"height": 30,
+									"text": " service delivery process",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;15;0",
+							"left": 320,
+							"top": 480,
+							"width": 169,
+							"height": 50,
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8o3EtPbPZY="
+							}
+						},
+						{
+							"_type": "FCAlternateProcessView",
+							"_id": "AAAAAAF5m8rUDdPpV9k=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8rUDdPn3f4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF5m8rUDdPqQmc=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8rUDdPpV9k="
+									},
+									"font": "Arial;22;0",
+									"left": 610,
+									"top": 490,
+									"width": 117,
+									"height": 22,
+									"text": "Hotel",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;22;0",
+							"left": 600,
+							"top": 480,
+							"width": 137,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8rUDdPqQmc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5m8uQSdQLSPc=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8uQSNQJ7lk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5m8uQSdQM/Bo=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8uQSdQLSPc="
+									},
+									"model": {
+										"$ref": "AAAAAAF5m8uQSNQJ7lk="
+									},
+									"font": "Arial;13;0",
+									"left": 238,
+									"top": 561,
+									"width": 43.34814453125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5m8uQSdQLSPc="
+									},
+									"edgePosition": 1,
+									"text": "Service"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5m8m/jtPLRsQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5m8o3EtPa9aE="
+							},
+							"lineStyle": 2,
+							"points": "344:529;344:552;176:552;176:529",
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8uQSdQM/Bo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5m8wA09QZ4ls=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8wA09QXZBk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5m8wA09QaxFU=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8wA09QZ4ls="
+									},
+									"model": {
+										"$ref": "AAAAAAF5m8wA09QXZBk="
+									},
+									"font": "Arial;13;0",
+									"left": 235,
+									"top": 435,
+									"width": 51.3017578125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5m8wA09QZ4ls="
+									},
+									"edgePosition": 1,
+									"text": "Payment"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5m8o3EtPa9aE="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5m8m/jtPLRsQ="
+							},
+							"lineStyle": 2,
+							"points": "176:480;176:456;344:456;344:480",
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8wA09QaxFU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5m8x4+9Qqru0=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8x4+9Qo26k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5m8x4+9Qrpo4=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8x4+9Qqru0="
+									},
+									"model": {
+										"$ref": "AAAAAAF5m8x4+9Qo26k="
+									},
+									"font": "Arial;13;0",
+									"left": 521,
+									"top": 435,
+									"width": 39.01904296875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5m8x4+9Qqru0="
+									},
+									"edgePosition": 1,
+									"text": "Money"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5m8rUDdPpV9k="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5m8o3EtPa9aE="
+							},
+							"lineStyle": 2,
+							"points": "464:480;464:456;616:456;616:480",
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8x4+9Qrpo4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF5m8zfktQ4xhs=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8i5vtN1/DI="
+							},
+							"model": {
+								"$ref": "AAAAAAF5m8zfktQ25Lw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF5m8zfk9Q5CeE=",
+									"_parent": {
+										"$ref": "AAAAAAF5m8zfktQ4xhs="
+									},
+									"model": {
+										"$ref": "AAAAAAF5m8zfktQ25Lw="
+									},
+									"font": "Arial;13;0",
+									"left": 496,
+									"top": 561,
+									"width": 87.42626953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF5m8zfktQ4xhs="
+									},
+									"edgePosition": 1,
+									"text": "Type of service"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF5m8o3EtPa9aE="
+							},
+							"tail": {
+								"$ref": "AAAAAAF5m8rUDdPpV9k="
+							},
+							"lineStyle": 2,
+							"points": "616:528;616:552;464:552;464:529",
+							"nameLabel": {
+								"$ref": "AAAAAAF5m8zfk9Q5CeE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCAlternateProcess",
+					"_id": "AAAAAAF5m8m/jtPJKNE=",
+					"_parent": {
+						"$ref": "AAAAAAF5m8i5vtN0Av4="
+					},
+					"name": "Client",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5m8wA09QXZBk=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8m/jtPJKNE="
+							},
+							"name": "Payment",
+							"source": {
+								"$ref": "AAAAAAF5m8m/jtPJKNE="
+							},
+							"target": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCAlternateProcess",
+					"_id": "AAAAAAF5m8o3EtPYX4g=",
+					"_parent": {
+						"$ref": "AAAAAAF5m8i5vtN0Av4="
+					},
+					"name": " service delivery process",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5m8uQSNQJ7lk=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							},
+							"name": "Service",
+							"source": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							},
+							"target": {
+								"$ref": "AAAAAAF5m8m/jtPJKNE="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5m8x4+9Qo26k=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							},
+							"name": "Money",
+							"source": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							},
+							"target": {
+								"$ref": "AAAAAAF5m8rUDdPn3f4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCAlternateProcess",
+					"_id": "AAAAAAF5m8rUDdPn3f4=",
+					"_parent": {
+						"$ref": "AAAAAAF5m8i5vtN0Av4="
+					},
+					"name": "Hotel",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF5m8zfktQ25Lw=",
+							"_parent": {
+								"$ref": "AAAAAAF5m8rUDdPn3f4="
+							},
+							"name": "Type of service",
+							"source": {
+								"$ref": "AAAAAAF5m8rUDdPn3f4="
+							},
+							"target": {
+								"$ref": "AAAAAAF5m8o3EtPYX4g="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

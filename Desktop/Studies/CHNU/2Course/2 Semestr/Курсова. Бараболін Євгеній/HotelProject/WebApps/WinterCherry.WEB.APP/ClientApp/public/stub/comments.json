@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "firstName": "Daniel",
+      "lastName": "Artemovich",
+      "comment": "So good Hotel",
+      "clientID": 7,
+      "createDate": "2021-05-18T13:00:00"
+    },
+    {
+        "id": 2,
+        "firstName": "Andrew",
+        "lastName": "Aksentij",
+        "comment": "I love this Hotel",
+        "clientID": 9,
+        "createDate": "2021-02-08T12:00:00"
+    },
+    {
+        "id": 3,
+        "firstName": "Anton",
+        "lastName": "Migaichuk",
+        "comment": "Nice place",
+        "clientID": 6,
+        "createDate": "2021-05-11T16:00:00"
+    },
+    {
+        "id": 4,
+        "firstName": "Oleksandr",
+        "lastName": "Biholar",
+        "comment": "Good! I love it",
+        "clientID": 2,
+        "createDate": "2021-05-18T21:00:00"
+    },
+    {
+        "id": 5,
+        "firstName": "Andrew",
+        "lastName": "Melenyuk",
+        "comment": "Best Hotel",
+        "clientID": 3,
+        "createDate": "2021-03-18T13:00:00"
+    },
+    {
+        "id": 5,
+        "firstName": "Agent",
+        "lastName": "Counter",
+        "comment": "VEEERY BAD!!!",
+        "clientID": 3,
+        "createDate": "2021-01-12T23:30:00"
+    }
+  ]

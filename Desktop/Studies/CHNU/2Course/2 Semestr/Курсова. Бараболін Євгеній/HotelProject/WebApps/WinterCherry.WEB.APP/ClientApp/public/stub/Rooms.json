@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "roomNum": 1,
+      "peopleNum": 4,
+      "roomType": "Standart",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 1200,
+      "description": "standart room",
+      "rate": 8
+    },
+    {
+      "id": 3,
+      "roomNum": 2,
+      "peopleNum": 1,
+      "roomType": "Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 400,
+      "description": "luxery room",
+      "rate": 9
+    },
+    {
+      "id": 5,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 6,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 7,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1564078516393-cf04bd966897?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 8,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 9,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 10,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 11,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    },
+    {
+      "id": 12,
+      "roomNum": 3,
+      "peopleNum": 2,
+      "roomType": "Semi_Luxe",
+      "roomIMG": "https://images.unsplash.com/photo-1565330502541-4937be8552e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 800,
+      "description": "semi-luxe room",
+      "rate": 6
+    }
+  ]
